@@ -1,0 +1,304 @@
+.welcome-image {
+    height: 70vh;
+  }
+
+.welcome-image h1{
+  font-size: 7em;
+  text-align: right;
+  width: 80vw;
+  right: 5%;
+  position: absolute;
+  }
+
+  .subTitulo {
+    max-width: 45%;
+    min-height: 5vh;
+    max-height: 15vh;
+    background-color: #f0cc17;
+    text-align: center;
+    display: block;
+    margin-left: 5%;
+    }
+  .subTitulo h3 {
+    font-size: 1.5em;
+    vertical-align: middle;
+    line-height: 6vh;
+    color: black;
+    }
+
+  .this2 {
+    text-align: center;
+    display: block;
+    float:right;
+    overflow: auto;
+    margin-right: 5%;
+    margin-bottom: 1%;
+  }
+  .this {
+    margin-bottom: 1%;
+  }
+  .seccion2 p {
+    clear:both;
+    display: block;
+  }
+  .seccion2{
+    text-align: right;
+  }
+
+  body {
+    font-family: "Bangla Sangam MN", Noto, sans-serif;
+    font-size: 1em;
+    background-color: #272727;
+  }
+  h1 {
+    font-family: "Lucida Console", Monaco, monospace;
+    text-align: center;
+    color: #c7c7c3;
+  }
+  p {
+    color: #d3d3d3;
+    width: 90%;
+    margin: auto;
+    padding: 4px;
+  }
+  ul li {
+    display: block;
+    display: inline-block;
+    width: 18%;
+    margin: auto;
+  }
+  a {
+    font-family: "Lucida Console", Monaco, monospace;
+    margin: auto;
+    text-decoration: none;
+    color: #c7c7c3;
+  }
+  a:hover {
+    color: yellow;
+  }
+#banner-temas {
+     background-color: #f0cc17;
+     text-align: center;
+     display: block;
+ }
+#banner-temas p {
+     vertical-align: middle;
+     line-height: 7.5vh;
+     color: #272727;
+   }
+
+#hamnav {
+  width: 85vw;
+  margin: 0 auto;
+  /* Optional */
+  position: sticky;
+  text-align: center;
+  top: 0;
+  color: #272727;
+}
+/* Hide Hamburger */
+#hamnav label, #hamburger { display: none; }
+/* Horizontal Menu Items */
+#hamitems { display: flex; }
+#hamitems a {
+  width: 20%; /* 100% / 5 tabs = 20% */
+  padding: 10px;
+  color: #c7c7c3;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+}
+
+#hamitems a:hover {
+  color: #f0cc71;
+}
+
+#hamnav label {
+  font-family: "Lucida Console", Monaco, monospace;
+  background-color: #f0cc17;
+  width:100%;
+
+}
+
+@media only screen and (max-width: 230px) {
+  .welcome-image h1{
+
+  }
+}
+
+@media only screen and (max-width: 527px) {
+/* -------- Burger menu ------------*/
+#hamnav {
+  color: #272727;
+}
+#hamnav label {
+  display: inline-block;
+  height: 7vh;
+  font-size: 2em;
+}
+
+/* Break down menu items into vertical */
+#hamitems a {
+  box-sizing: border-box;
+  display: block;
+  border-style: none;
+  font-size: 2em;
+  background-color: #c7c7c3;
+  color: #272727;
+}
+/* Toggle Show/Hide Menu */
+#hamitems { display: none; }
+#hamburger { display: none; }
+#hamnav input:checked ~ #hamitems { display: block; }
+
+ /*------ Index -------------*/
+  .welcome-image {
+    height: 25vh;
+    border-bottom-width: 3em
+  }
+  .welcome-image h1{
+    font-size: 15vw;
+    width: 95vw;
+    padding-bottom: 2em;
+  }
+
+  #banner-temas {
+    width: 95%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 528px) and (max-width: 790px) {
+  /* For phones and tables: */
+  /* -------- Burger menu ------------*/
+
+  /* Break down menu items into vertical */
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    border-style: none;
+    width: 100%;
+    font-size: 2em;
+    padding: 4.5% 0;
+    color: #272727;
+  }
+  #hamnav label {
+    display: inline-block;
+    height: 8vh;
+    font-size: 2.5em;
+  }
+  /* Break down menu items into vertical */
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    border-style: none;
+    font-size: 2em;
+    background-color: #c7c7c3;
+    color: #272727;
+  }
+  /* Toggle Show/Hide Menu */
+  #hamitems { display: none; }
+  #hamburger { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+
+/*---- INDEX ---- */
+  .welcome-image {
+    height: 45vh;
+  }
+  .welcome-image h1{
+    font-size: 4em;
+    width: 95vw;
+  }
+  .seccion2 p {
+    clear:both;
+    display: block;
+  }
+  .seccion2{
+    text-align: right;
+  }
+
+  /* IDS*/
+  #banner-temas {
+    text-align: center;
+    width: 95%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    }
+  #banner-temas p {
+      display: inline-block;
+      width: 95%;
+      font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 791px) and (max-width: 1150px) {  /* For mid sizes and tablets */
+/*----- INDEX -----*/
+  .welcome-image {
+    height: 65vh;
+  }
+  .welcome-image h1{
+    font-size: 6em;
+    width: 95vw;
+  }
+/* ---------- IDs -------------*/
+  #banner-temas {
+    text-align: center;
+    }
+  #banner-temas p {
+      display: inline-block;
+      vertical-align: middle;
+      width:90%;
+      height: 7.5vh;
+      font-size: 1.8em;
+    }
+}
+
+@media only screen and (min-width: 1150px) and (max-width:1900px) {  /* For desktop: */
+/* ---------- INDEX IDs -------------*/
+  #banner-temas {
+    width:45vw;
+    height: 7.5vh;
+    font-size: 1.6em;
+    margin-left: 3%;
+  }
+  #banner-temas p {
+    font-size: 0.88em;
+  }
+}
+
+@media only screen and (min-width:1901px) {
+  /* ---------- INDEX IDs -------------*/
+    #banner-temas {
+      width:95%;
+      height: auto;
+      font-size: 2em;
+      margin-left: 3%;
+      position: fixed;
+      bottom: 0;
+    }
+}
+
+
+/* [DOES NOT MATTER] */
+/*html, body {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+}*/
+/* No longer in use*/
+/*
+  .menu {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+  }*/
+
+/*  body { /*this lets the menu be in the center AND I DON'T KNOW WHY!*/
+  /*}*/
+/*.this {
+    margin-bottom: 1%
+ }*/
+ /*------ General defintions -------------*/
