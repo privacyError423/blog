@@ -62,9 +62,8 @@
     padding: 4px;
   }
   ul li {
-    display: block;
-    display: inline-block;
-    width: 18%;
+    padding: 4px;
+    width: 90%;
     margin: auto;
   }
   a {
