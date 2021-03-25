@@ -166,6 +166,24 @@
     position: fixed;
     bottom: 0;
   }
+
+}
+
+@media only screen and (max-width: 790px){
+  /* OTHERS CLASSES  */
+  .bodyArticulos p {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  }
+
+  .subTitulo {
+  background-color: transparent;
+  max-width: 90%;
+  margin-left: 5%;
+  border-block-color: #f0cc17;
+  border-block-style: double;
+  }
+
 }
 
 @media only screen and (min-width: 528px) and (max-width: 790px) {
@@ -208,7 +226,7 @@
   .welcome-image h1{
     font-size: 4em;
     width: 95vw;
-      
+
   }
   .seccion2 p {
     clear:both;
@@ -217,21 +235,21 @@
   .seccion2{
     text-align: right;
   }
-    
+
  /* OTHERS - CLASSES */
-    
-    .bodyArticulos p {
+
+    /*.bodyArticulos p {
     margin-top: 2vh;
     margin-bottom: 2vh;
     }
-    
+
     .subTitulo {
     background-color: transparent;
     max-width: 90%;
     margin-left: 5%;
     border-block-color: #f0cc17;
     border-block-style: double;
-    }
+    }*/
 
   /* IDS*/
   #banner-temas {
