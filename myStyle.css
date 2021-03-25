@@ -13,7 +13,6 @@
   .subTitulo {
     max-width: 45%;
     min-height: 5vh;
-    max-height: 15vh;
     background-color: #f0cc17;
     text-align: center;
     display: block;
@@ -209,6 +208,7 @@
   .welcome-image h1{
     font-size: 4em;
     width: 95vw;
+      
   }
   .seccion2 p {
     clear:both;
@@ -217,6 +217,21 @@
   .seccion2{
     text-align: right;
   }
+    
+ /* OTHERS - CLASSES */
+    
+    .bodyArticulos {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    }
+    
+    .subTitulo {
+    background-color: transparent;
+    max-width: 90%;
+    margin-left: 5%;
+    border-block-color: #f0cc17;
+    border-block-style: double;
+    }
 
   /* IDS*/
   #banner-temas {
